@@ -1,0 +1,24 @@
+def RtTriangle():
+    '''
+    Objective:To draw a right angled triangle
+    Approach:print asterisks symbol in each line and form a right triangle 
+    '''
+    
+    print('*') 
+    print('**')
+    print('***')
+    print('****')
+    print('*****')
+    
+
+def main():
+    '''
+    Objective:To draw a right angled triangle
+    Approach:To call  function RtTriangle to print a right angled triangle
+    '''
+    
+    RtTriangle()
+    print('End of output')
+if __name__ == "__main__":
+    main()
+    print('End of program')
