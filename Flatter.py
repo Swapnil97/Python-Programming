@@ -5,6 +5,7 @@ def Flatter(List,Flattered=[]):
             2.Flattered=new flattered list
     Return: New FLattered list
     '''
+    
     if(len(List)==0):
         return Flattered
     elif(type(List[0])== list):
