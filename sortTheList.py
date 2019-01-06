@@ -13,6 +13,7 @@ def miniIndex(List,lower,upper):
         return miniIndex(List,lower,upper-1)
     else:
         return miniIndex(List,lower+1,upper)
+
 def sortTheList(List,start=0):
     '''
     OBJECTIVE:TO SORT THE LIST BY FINDING MINIMUM ELEMENT USING FUNCTION
